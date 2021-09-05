@@ -14,7 +14,7 @@
 
         <div class="wrapper">
             <div class="image">
-                <img src="placeholderimg.png" />
+                <img src="html_form_pic.png" />
 
             </div>
             <div class="form">
@@ -27,33 +27,32 @@
                         guaranteed
                         to change your life.</p>
                     <p>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname">
+                        <label for="fname" class="left">First Name</label><input type="text" id="fname">
                     </p>
                     <p>
-                        <label for="lname">Last Name</label>
+                        <label for="lname" class="left">Last Name</label>
                         <input type="text" id="lname">
                     </p>
-                    <p class="full-width">
-                        <label for="email">Email Address</label>
-                        <input type="mail" id="email">
+                    <p class=" full-width">
+                        <label for="email" class="left">Email Address</label>
+                        <input type="mail" id="email" style="width:520px">
                     </p>
                     <p>
-                        <label for="pwd">Password</label>
+                        <label for="pwd" class="left">Password</label>
                         <input type="text" id="pwd">
                     </p>
                     <p>
-                        <label for="confirm_pwd">Confirm Password</label>
-                        <input type="text" id="confirm_pwd">
+                        <label for="confirm_pwd" style="position:absolute;left:1100px;">Confirm Password</label>
+                        <input type="text" id="confirm_pwd" style="position:absolute;left:1240px;">
                     </p>
-                    <input type="checkbox" id="terms">
-                    <p></p>Yes, I understand and agree to BookClub's
-                    Terms of Service, including the User Agreement and Privacy Policy.</p>
+                    <p class="full-width"><input type="checkbox" id="terms">
+                        Yes, I understand and agree to BookClub's
+                        Terms of Service, including the User Agreement and Privacy Policy.</p>
 
                     <input type="submit" value="Create Account" id="submit">
 
                     <p class="full-width">
-                        Already have an account? Log in
+                        Already have an account? <a href="">Log in</a>
                     </p>
                 </form>
             </div>
