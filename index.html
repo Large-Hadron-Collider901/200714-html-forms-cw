@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>HTML forms: Class Work</title>
 </head>
+<h1 class="mainheader">WDR Lab: 03 cw - HTML Forms and Event Handlers</h1>
 
 <body>
     <div class="contain">
@@ -18,7 +19,7 @@
 
             </div>
             <div class="form">
-                <form action="">
+                <form id="form">
                     <h1 class="full-width">Welcome to BookClub</h1>
 
                     <p class="full-width">Get instant access to the key takeaways from the world's most
@@ -27,22 +28,23 @@
                         guaranteed
                         to change your life.</p>
                     <p>
-                        <label for="fname" class="left">First Name</label><input type="text" id="fname">
+                        <label for="fname">First Name</label><input type="text" id="fname">
                     </p>
                     <p>
-                        <label for="lname" class="left">Last Name</label>
+                        <label for="lname">Last Name</label>
                         <input type="text" id="lname">
                     </p>
                     <p class=" full-width">
-                        <label for="email" class="left">Email Address</label>
+                        <label for="email">Email Address</label>
                         <input type="mail" id="email" style="width:520px">
                     </p>
                     <p>
-                        <label for="pwd" class="left">Password</label>
+                        <label for="pwd">Password</label>
                         <input type="text" id="pwd">
                     </p>
                     <p>
-                        <label for="confirm_pwd" style="position:absolute;left:1100px;">Confirm Password</label>
+                        <label for="confirm_pwd" style="position:absolute;left:1100px;bottom:205px;">Confirm
+                            Password</label>
                         <input type="text" id="confirm_pwd" style="position:absolute;left:1240px;">
                     </p>
                     <p class="full-width"><input type="checkbox" id="terms">
@@ -58,6 +60,10 @@
             </div>
         </div>
     </div>
+    <br />
+    <br />
+    <br />
+    <div id="bottom-page"></div>
     <script src="main.js"></script>
 </body>
 
